@@ -1,0 +1,25 @@
+The intervals are the specified m values (number of edges generated on each node)
+These m values change whenever an anomaly occurs (every 100 timesteps) to the next m value in the list.
+
+Ex. 
+interval of 1 is specified as [1,2,3,4,5,6,7,8,9,10,11,10,9,8,7,6,5,4,3,2]
+interval of 3 is specified as [1,3,6,9,12,15,18,21,24,27,30,27,24,21,18,15,12,9,6,3]
+interval of 10 is specified as[1,10,20,30,40,50,60,70,80,90,99,90,80,70,60,50,40,30,20,10]
+
+Alpha Values are set to .5 
+
+
+.1 alpha
+# graphs = AB.generate_AB_ChangePoint([1,2,3,4,5,6,7,8,9,10,11,10,9,8,7,6,5,4,3,2], .1) # .1 alpha
+
+.9 alpha
+# graphs = AB.generate_AB_ChangePoint([1,2,3,4,5,6,7,8,9,10,11,10,9,8,7,6,5,4,3,2], .9) # .9 alpha
+
+Set One
+# graphs = AB.generate_AB_ChangePoint([1,2,3,4,5,6,7,8,9,10,11,10,9,8,7,6,5,4,3,2], .5) # intervals of 1
+
+Set Two
+# graphs = AB.generate_AB_ChangePoint([1,3,6,9,12,15,18,21,24,27,30,27,24,21,18,15,12,9,6,3], .5) # intervals of 3
+
+Set Three
+# graphs = AB.generate_AB_ChangePoint([1,10,20,30,40,50,60,70,80,90,99,90,80,70,60,50,40,30,20,10], .5) # intervals of 10

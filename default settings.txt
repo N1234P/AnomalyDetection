@@ -1,0 +1,18 @@
+This file is used for default measurements to refer back to when changing data values. (If the graph file does not specify 
+all of the measurements for that particular graph, then the values for the unspecified measurements are default as shown below)
+
+Threshold - 5 or 10
+Offset - 50 
+
+Dependent on Graph -
+Edge Creation Chance - 40% (.4)
+Nodes - 100
+Timesteps (usually 2000 for testing accuracy)
+Anomalies (19 if 2000 Timesteps) on multiples of 100
+
+AB Graphs -
+alpha - .4
+Timesteps, Nodes, and Anomaly Induction same as above
+m_values - This varies depending on the anomaly difficulty, 
+more drastic m values between each change will make the difficulty easier.
+Can hold to 100 maximum.

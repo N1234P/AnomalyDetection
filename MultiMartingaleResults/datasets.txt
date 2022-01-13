@@ -1,0 +1,44 @@
+Datasets used for 10 tests in calculating average martingale performance
+
+graph 16 5 or 10 and 100 threshold 110 nodes
+graph 17 5 or 10 and 100 threshold 60 nodes
+graph 15 5 or 10 and 100 threshold 75 nodes
+graph 12 5 or 10 and 100 threshold 100 nodes
+graph 11 5 or 10 and 100 threshold 100 nodes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
